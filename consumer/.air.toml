@@ -1,0 +1,11 @@
+[build]
+cmd = "go build -o main ."
+bin = "main"
+
+[watch]
+dirs = ["."]
+extensions = ["go"]
+
+[server]
+cmd = "./main"
+port = 8080
